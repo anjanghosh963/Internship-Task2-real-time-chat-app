@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codtech Chat - Real-time Messaging</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💬</text></svg>">
+</head>
+<body>
+    <!-- Login Screen -->
+    <div id="loginScreen" class="login-screen">
+        <div class="login-container">
+            <div class="login-header">
+                <h1>💬 Codtech Chat</h1>
+                <p>Real-time messaging application</p>
+                <div class="task-info">
+                    <span>Task 2 - Socket.IO Implementation</span>
+                    <span>By Anjan Ghosh</span>
+                </div>
+            </div>
+            
+            <form id="loginForm" class="login-form">
+                <div class="input-group">
+                    <label for="usernameInput">Choose your username:</label>
+                    <input 
+                        type="text" 
+                        id="usernameInput" 
+                        placeholder="Enter your name..." 
+                        maxlength="20" 
+                        required
+                        autocomplete="off"
+                    >
+                </div>
+                
+                <div class="avatar-section">
+                    <label>Choose an avatar:</label>
+                    <div class="avatar-grid">
+                        <div class="avatar-option selected" data-avatar="👤">👤</div>
+                        <div class="avatar-option" data-avatar="👨">👨</div>
+                        <div class="avatar-option" data-avatar="👩">👩</div>
+                        <div class="avatar-option" data-avatar="🧑">🧑</div>
+                        <div class="avatar-option" data-avatar="👨‍💻">👨‍💻</div>
+                        <div class="avatar-option" data-avatar="👩‍💻">👩‍💻</div>
+                        <div class="avatar-option" data-avatar="🦸">🦸</div>
+                        <div class="avatar-option" data-avatar="🦸‍♀️">🦸‍♀️</div>
+                    </div>
+                </div>
+                
+                <button type="submit" class="join-btn">
+                    <span>🚀 Join Chat</span>
+                </button>
+            </form>
+            
+            <div class="connection-status" id="connectionStatus">
+                <span class="status-dot"></span>
+                <span>Connecting to server...</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chat Screen -->
+    <div id="chatScreen" class="chat-screen hidden">
+        <!-- Chat Header -->
+        <div class="chat-header">
+            <div class="header-left">
+                <h2>💬 Codtech Chat</h2>
+                <div class="user-count">
+                    <span class="online-dot"></span>
+                    <span id="userCount">0 users online</span>
+                </div>
+            </div>
+            <div class="header-right">
+                <button id="toggleUserList" class="toggle-users-btn">
+                    👥 Users
+                </button>
+                <button id="leaveChat" class="leave-btn">
+                    🚪 Leave
+                </button>
+            </div>
+        </div>
+
+        <!-- Chat Container -->
+        <div class="chat-container">
+            <!-- Users Sidebar -->
+            <div id="usersSidebar" class="users-sidebar">
+                <div class="sidebar-header">
+                    <h3>Online Users</h3>
+                    <button id="closeSidebar" class="close-sidebar">✕</button>
+                </div>
+                <div id="usersList" class="users-list">
+                    <!-- Users will be populated here -->
+                </div>
+            </div>
+
+            <!-- Messages Area -->
+            <div class="messages-container">
+                <div id="messagesArea" class="messages-area">
+                    <!-- Messages will appear here -->
+                </div>
+                
+                <!-- Typing Indicator -->
+                <div id="typingIndicator" class="typing-indicator hidden">
+                    <div class="typing-animation">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <span id="typingText">Someone is typing...</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Message Input -->
+        <div class="message-input-container">
+            <form id="messageForm" class="message-form">
+                <div class="input-wrapper">
+                    <input 
+                        type="text" 
+                        id="messageInput" 
+                        placeholder="Type your message..." 
+                        maxlength="500"
+                        autocomplete="off"
+                        disabled
+                    >
+                    <button type="submit" id="sendBtn" class="send-btn" disabled>
+                        <span>📤</span>
+                    </button>
+                </div>
+                <div class="input-footer">
+                    <span class="char-count">0/500</span>
+                    <span class="connection-indicator" id="connectionIndicator">
+                        <span class="status-dot"></span>
+                        Connected
+                    </span>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Notification Container -->
+    <div id="notifications" class="notifications-container">
+        <!-- Notifications will appear here -->
+    </div>
+
+    <!-- Loading Overlay -->
+    <div id="loadingOverlay" class="loading-overlay hidden">
+        <div class="loading-spinner">
+            <div class="spinner"></div>
+            <p>Connecting to chat...</p>
+        </div>
+    </div>
+
+    <!-- Socket.IO Client -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
