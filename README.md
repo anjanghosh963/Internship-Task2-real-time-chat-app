@@ -4,26 +4,26 @@ This is a real-time chat application built with Node.js, Express, and Socket.IO.
 ## Features
 Real-Time Messaging: Instant message delivery using WebSockets (Socket.IO).
 
-User Authentication: Simple login with a username and avatar selection.
+**User Authentication:** Simple login with a username and avatar selection.
 
-Online User List: View a list of all users currently in the chat room.
+**Online User List:** View a list of all users currently in the chat room.
 
-Typing Indicators: See when another user is typing a message.
+**Typing Indicators:** See when another user is typing a message.
 
-Join/Leave Notifications: Get notified when users join or leave the chat.
+**Join/Leave Notifications:** Get notified when users join or leave the chat.
 
-Responsive Design: The chat interface is designed to work on both desktop and mobile devices.
+**Responsive Design:** The chat interface is designed to work on both desktop and mobile devices.
 
-System Messages: Welcome messages and other system-level notifications.
+**System Messages:** Welcome messages and other system-level notifications.
 
-Connection Status: Visual indicators for connection to the server.
+**Connection Status:** Visual indicators for connection to the server.
 
 Tech Stack Used
-Backend: Node.js, Express.js
+**Backend:** Node.js, Express.js
 
 Real-time Communication: Socket.IO
 
-Frontend: HTML5, CSS3, JavaScript (Vanilla)
+**Frontend:** HTML5, CSS3, JavaScript (Vanilla)
 
 Development Tool: nodemon for automatic server restarts
 
