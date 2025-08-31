@@ -27,6 +27,7 @@ Frontend: HTML5, CSS3, JavaScript (Vanilla)
 
 Development Tool: nodemon for automatic server restarts
 
+```
 Project Structure
 .
 ├── server.js               # The main Node.js server file
@@ -38,8 +39,8 @@ Project Structure
 └── README.md               # Project documentation
 How to Run Locally
 To get a local copy up and running, follow these simple steps.
-
-cd <project-directory>
+```
+```cd <project-directory>```
 Install dependencies:
 
 
@@ -53,7 +54,9 @@ For development (with auto-restart):
 
 
 npm run dev
-Open your browser and navigate to http://localhost:3000.
+Open your browser and navigate to ```http://localhost:3000.```
+
+# I've attached the Task One files as a RAR archive. You'll just need to extract it to begin.
 
 ### License
 This project is licensed under the MIT License.
