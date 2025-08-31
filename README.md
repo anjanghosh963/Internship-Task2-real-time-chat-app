@@ -56,7 +56,7 @@ For development (with auto-restart):
 npm run dev
 Open your browser and navigate to ```http://localhost:3000.```
 
-# I've attached the Task One files as a RAR archive. You'll just need to extract it to begin.
+# I've attached the Task 2 files as a RAR archive. You'll just need to extract it to begin.
 
 ### License
 This project is licensed under the MIT License.
