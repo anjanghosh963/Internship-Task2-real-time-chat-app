@@ -66,3 +66,10 @@ Anjan Ghosh
 
 ## Screenshot
 
+<img width="1920" height="1031" alt="Task2-1" src="https://github.com/user-attachments/assets/b393eea9-43d3-43d8-acc4-d419dc31b199" />
+
+<img width="1920" height="1032" alt="Task2-3" src="https://github.com/user-attachments/assets/992f6890-e77b-4558-96f7-ed587d0b4e36" />
+
+<img width="1920" height="1028" alt="Task3-2" src="https://github.com/user-attachments/assets/18c3d143-ea2c-4272-8d04-5fc40fd476e5" />
+
+
