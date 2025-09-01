@@ -20,13 +20,11 @@ Real-Time Messaging: Instant message delivery using WebSockets (Socket.IO).⚡
 **Connection Status:** Visual indicators for connection to the server.🟢
 
 Tech Stack Used 🛠️
+
 **Backend:** Node.js, Express.js ⚙️
-
-Real-time Communication: Socket.IO 📡
-
+**Real-time Communication:** Socket.IO 📡
 **Frontend:** HTML5, CSS3, JavaScript (Vanilla) 🎨
-
-Development Tool: nodemon for automatic server restarts🔥
+**Development Tool:** nodemon for automatic server restarts🔥
 
 ```
 Project Structure 📁
