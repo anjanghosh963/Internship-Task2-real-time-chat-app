@@ -1,34 +1,35 @@
-# Real-Time Chat Application - Codtech Task 2
-This is a real-time chat application built with Node.js, Express, and Socket.IO. It allows multiple users to join a chat room, send messages, and see who is online. This project was developed as part of the Codtech IT Solutions internship program.
+# Real-Time Chat Application - Codtech Task 2💬
+This is a real-time chat application built with Node.js, Express, and Socket.IO. It allows multiple users to join a chat room, send messages, and see who is online. 
+👥This project was developed as part of the Codtech IT Solutions internship program.🚀
 
-## Features
-Real-Time Messaging: Instant message delivery using WebSockets (Socket.IO).
+## Features✨
+Real-Time Messaging: Instant message delivery using WebSockets (Socket.IO).⚡
 
-**User Authentication:** Simple login with a username and avatar selection.
+**User Authentication:** Simple login with a username and avatar selection.👤
 
-**Online User List:** View a list of all users currently in the chat room.
+**Online User List:** View a list of all users currently in the chat room.📝
 
-**Typing Indicators:** See when another user is typing a message.
+**Typing Indicators:** See when another user is typing a message.✍️...
 
-**Join/Leave Notifications:** Get notified when users join or leave the chat.
+**Join/Leave Notifications:** Get notified when users join or leave the chat.🚪
 
-**Responsive Design:** The chat interface is designed to work on both desktop and mobile devices.
+**Responsive Design:** The chat interface is designed to work on both desktop and mobile devices.💻📱
 
-**System Messages:** Welcome messages and other system-level notifications.
+**System Messages:** Welcome messages and other system-level notifications.🤖
 
-**Connection Status:** Visual indicators for connection to the server.
+**Connection Status:** Visual indicators for connection to the server.🟢
 
-Tech Stack Used
-**Backend:** Node.js, Express.js
+Tech Stack Used 🛠️
+**Backend:** Node.js, Express.js ⚙️
 
-Real-time Communication: Socket.IO
+Real-time Communication: Socket.IO 📡
 
-**Frontend:** HTML5, CSS3, JavaScript (Vanilla)
+**Frontend:** HTML5, CSS3, JavaScript (Vanilla) 🎨
 
-Development Tool: nodemon for automatic server restarts
+Development Tool: nodemon for automatic server restarts🔥
 
 ```
-Project Structure
+Project Structure 📁
 .
 ├── server.js               # The main Node.js server file
 ├── package.json            # Project metadata and dependencies
@@ -37,7 +38,7 @@ Project Structure
 │   ├── script.js           # Client-side JavaScript for chat functionality
 │   └── style.css           # CSS for styling the application
 └── README.md               # Project documentation
-How to Run Locally
+How to Run Locally 🏠
 To get a local copy up and running, follow these simple steps.
 ```
 ```cd <project-directory>```
@@ -45,7 +46,7 @@ Install dependencies:
 
 
 npm install
-Run the application:
+Run the application:▶️
 
 For production:
 
@@ -54,17 +55,17 @@ For development (with auto-restart):
 
 
 npm run dev
-Open your browser and navigate to ```http://localhost:3000.```
+Open your browser and navigate to ```http://localhost:3000.🌐```
 
-# I've attached the Task 2 files as a RAR archive. You'll just need to extract it to begin.
+# I've attached the Task 2 files as a RAR archive. You'll just need to extract it to begin.📎
 
-### License
+### License 📜
 This project is licensed under the MIT License.
 
-### Author
+### Author 👨‍💻
 Anjan Ghosh
 
-## Screenshot
+## Screenshot 📸
 
 <img width="1920" height="1031" alt="Task2-1" src="https://github.com/user-attachments/assets/b393eea9-43d3-43d8-acc4-d419dc31b199" />
 
