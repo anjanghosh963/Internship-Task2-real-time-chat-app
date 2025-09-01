@@ -72,4 +72,6 @@ Anjan Ghosh
 
 <img width="1920" height="1028" alt="Task3-2" src="https://github.com/user-attachments/assets/18c3d143-ea2c-4272-8d04-5fc40fd476e5" />
 
+## Linkedin post:- https://www.linkedin.com/posts/anjanghosh963_webdevelopment-internship-fullstackdeveloper-activity-7367926643530616834-4IaO?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEiknjEB-QGuqv48T6vBmVagL9pwU-i1eAU
+
 
