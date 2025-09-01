@@ -57,7 +57,9 @@ For development (with auto-restart):
 npm run dev
 Open your browser and navigate to ```http://localhost:3000.🌐```
 
-# I've attached the Task 2 files in a RAR archive.You'll need to extract the archive to access the complete folder.📎
+# All the necessary source code for the extension is located in the **`Task2/`** directory in this repository.📎
+
+# Alternatively, I've attached the Task 2 files in a `Task2.rar` archive. You'll need to extract the archive to access the complete folder.
 
 ### License 📜
 This project is licensed under the MIT License.
